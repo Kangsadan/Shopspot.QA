@@ -1,7 +1,7 @@
 *** Settings ***
 Library           Selenium2Library
-Resource          th/dataresource.robot
-Resource          keyword/keyword-login.robot
+Resource          ${LANG}/dataresource.robot
+Resource          keyword/keyword_login.robot
 Suite Setup       Open Web Shopspot
 Test Template     Login Test
 Suite Teardown    Close Browser
